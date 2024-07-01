@@ -12,8 +12,8 @@ importers:
         specifier: ^3.600.0
         version: 3.600.0
       '@aws-sdk/s3-request-presigner':
-        specifier: ^3.600.0
-        version: 3.600.0
+        specifier: ^3.606.0
+        version: 3.606.0
       '@libsql/client':
         specifier: ^0.7.0
         version: 0.7.0
@@ -251,8 +251,8 @@ packages:
     resolution: {integrity: sha512-oYXhmTokSav4ytmWleCr3rs/1nyvZW/S0tdi6X7u+dLNL5Jee+uMxWGzgOrWK6wrQOzucLVjS4E/wA11Kv2GTw==}
     engines: {node: '>=16.0.0'}
 
-  '@aws-sdk/s3-request-presigner@3.600.0':
-    resolution: {integrity: sha512-MYRwgti1DDc9/Q9AzvTQy0Ih0j4vLe0zYLV3qtSI0H8G02yRqTzet2s/76pUNOYJK9ASSgcxQ9yeV9EGKBwndQ==}
+  '@aws-sdk/s3-request-presigner@3.606.0':
+    resolution: {integrity: sha512-ErxArdCk73MVOh5xiTWZkk76kZWCHZqCCdMnSJTD0lzTpfGbwL/eEjHIjKLJO+EsRtDKYmS8vN+qijyMvMqruw==}
     engines: {node: '>=16.0.0'}
 
   '@aws-sdk/signature-v4-multi-region@3.598.0':
@@ -3279,7 +3279,7 @@ snapshots:
       '@smithy/util-middleware': 3.0.2
       tslib: 2.6.3
 
-  '@aws-sdk/s3-request-presigner@3.600.0':
+  '@aws-sdk/s3-request-presigner@3.606.0':
     dependencies:
       '@aws-sdk/signature-v4-multi-region': 3.598.0
       '@aws-sdk/types': 3.598.0
